@@ -10,7 +10,7 @@ from langchain_ollama import ChatOllama,OllamaEmbeddings
 
 def get_llm():
     llama3 = ChatOllama(
-        "llama3",
+        model="llama3",
           temperature=0.2,
         num_predict=256,
     )
